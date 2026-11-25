@@ -1,0 +1,18 @@
+{
+  "flatbuffers-25.2.10-py2.py3-none-any.whl": {
+    "bytes": 30953, "sha256": "ebba5f4d5ea615af3f7fd70fc310636fbb2bbd1f566ac0a23d98dd412de50051",
+    "url": "https://files.pythonhosted.org/packages/b8/25/155f9f080d5e4bc0082edfda032ea2bc2b8fab3f4d25d46c1e9dd22a1a89/flatbuffers-25.2.10-py2.py3-none-any.whl"
+  },
+  "onnx-1.18.0-cp310-cp310-win_amd64.whl": {
+    "bytes": 15848421, "sha256": "9235b3493951e11e75465d56f4cd97e3e9247f096160dd3466bfabe4cbc938bc",
+    "url": "https://files.pythonhosted.org/packages/a6/f9/e766a3b85b7651ddfc5f9648e0e9dc24e88b7e88ea7f8c23187530e818ea/onnx-1.18.0-cp310-cp310-win_amd64.whl"
+  },
+  "onnxruntime_gpu-1.23.2-cp310-cp310-win_amd64.whl": {
+    "bytes": 244505340, "sha256": "deba091e15357355aa836fd64c6c4ac97dd0c4609c38b08a69675073ea46b321",
+    "url": "https://files.pythonhosted.org/packages/21/c9/47abd3ec1f34498224d2a8f5cc4d1445eb5cc7dee8e3644b1a972619c0d2/onnxruntime_gpu-1.23.2-cp310-cp310-win_amd64.whl"
+  },
+  "protobuf-5.29.5-cp310-abi3-win_amd64.whl": {
+    "bytes": 434818, "sha256": "3f76e3a3675b4a4d867b52e4a5f5b78a2ef9565549d4037e06cf7b0942b1d3fc",
+    "url": "https://files.pythonhosted.org/packages/81/7f/73cefb093e1a2a7c3ffd839e6f9fcafb7a427d300c7f8aef9c64405d8ac6/protobuf-5.29.5-cp310-abi3-win_amd64.whl"
+  }
+}

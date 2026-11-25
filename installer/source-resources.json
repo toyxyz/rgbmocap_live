@@ -1,0 +1,141 @@
+{
+  "schema": 1,
+  "purpose": "Hash-verified importer assets, UE5 mannequin data, prebuilt correction module, documentation samples, and the Blender stream add-on package",
+  "files": [
+    {
+      "path": "third_party/character_import/io_scene_vrm/common/mtoon0.blend",
+      "bytes": 179720,
+      "sha256": "06c15f6485340437043431eff2af8d8037d3eae235e32900882e458aea55fa1d"
+    },
+    {
+      "path": "third_party/character_import/io_scene_vrm/common/mtoon1.blend",
+      "bytes": 334486,
+      "sha256": "0c823711196224e03a7e0b20a6655c7f679648a3eb5d73227012df9a6ffe85d7"
+    },
+    {
+      "path": "third_party/character_import/io_scene_vrm/common/mtoon1_outline.blend",
+      "bytes": 478512,
+      "sha256": "c19dea52cdd863aeed805681e9cb2cbd1ee1163e70e371e16c74409dd03f7639"
+    },
+    {
+      "path": "third_party/character_import/io_scene_vrm/common/mtoon_auto_setup.blend",
+      "bytes": 116081,
+      "sha256": "eef48f028e0989950613b8866395d7020ab2380a17d6b84206592eb04b0913a6"
+    },
+    {
+      "path": "third_party/character_import/io_scene_vrm/common/transparent_z_write.blend",
+      "bytes": 134583,
+      "sha256": "95496e48586a0e8ba3d59e0c9366ba80ebdf029795aa21b59f8642a6c643674d"
+    },
+    {
+      "path": "third_party/character_import/mmd_tools/externals/MikuMikuDance/toon01.bmp",
+      "bytes": 3128,
+      "sha256": "5e2da47c174dbbd0befb547346bdbeed36fa5daa74898ad261bd6720dce31302"
+    },
+    {
+      "path": "third_party/character_import/mmd_tools/externals/MikuMikuDance/toon02.bmp",
+      "bytes": 3128,
+      "sha256": "af1246cd9cf57d833f0eccc1fadbe7c7f88baddf3173bc103d373c2e3e82aed1"
+    },
+    {
+      "path": "third_party/character_import/mmd_tools/externals/MikuMikuDance/toon03.bmp",
+      "bytes": 3128,
+      "sha256": "4268976ada66f2a7c3b5fd84c29d1183fd6069c2fdf2ce5c424f815a2680f25c"
+    },
+    {
+      "path": "third_party/character_import/mmd_tools/externals/MikuMikuDance/toon04.bmp",
+      "bytes": 3128,
+      "sha256": "3e30ab164bc574241f2ac6c12172b6c75799afe5a03d4eb5cdb43c223f23de6e"
+    },
+    {
+      "path": "third_party/character_import/mmd_tools/externals/MikuMikuDance/toon05.bmp",
+      "bytes": 3126,
+      "sha256": "ef1b687f0e5bbc6cd32909f8ebf890fd72cb1b704ebdf366fb7a4e3f8b1fae08"
+    },
+    {
+      "path": "third_party/character_import/mmd_tools/externals/MikuMikuDance/toon06.bmp",
+      "bytes": 3126,
+      "sha256": "a8811f63ecd91f8ff5cc7347011b2cc74c9ff028b1b08bd6438dab03ae9bf8f8"
+    },
+    {
+      "path": "third_party/character_import/mmd_tools/externals/MikuMikuDance/toon07.bmp",
+      "bytes": 3126,
+      "sha256": "b03c8464c66f7359f303a0d3f00e7d5570159fb3b8fe3c712095e59ef75ff4a0"
+    },
+    {
+      "path": "third_party/character_import/mmd_tools/externals/MikuMikuDance/toon08.bmp",
+      "bytes": 3126,
+      "sha256": "b03c8464c66f7359f303a0d3f00e7d5570159fb3b8fe3c712095e59ef75ff4a0"
+    },
+    {
+      "path": "third_party/character_import/mmd_tools/externals/MikuMikuDance/toon09.bmp",
+      "bytes": 3126,
+      "sha256": "b03c8464c66f7359f303a0d3f00e7d5570159fb3b8fe3c712095e59ef75ff4a0"
+    },
+    {
+      "path": "third_party/character_import/mmd_tools/externals/MikuMikuDance/toon10.bmp",
+      "bytes": 3126,
+      "sha256": "b03c8464c66f7359f303a0d3f00e7d5570159fb3b8fe3c712095e59ef75ff4a0"
+    },
+    {
+      "path": "prebuilt/motion-correction/_motion_correction.cp310-win_amd64.pyd",
+      "bytes": 413696,
+      "sha256": "46fea913e302fafa2281842e8b081ba34cfcbc572e2d2f36ac107bc89ed22638"
+    },
+    {
+      "path": "docs/samples/motion-capture.mp4",
+      "bytes": 13808824,
+      "sha256": "6cb138f4586ebed6620a60761d6646d658b2d496a7a166dbe5a07634b34d86a0"
+    },
+    {
+      "path": "docs/samples/character-retargeting.mp4",
+      "bytes": 12408995,
+      "sha256": "8fce14c6f9042d1bd9799be2b44de3867916257c232ce8e39196b42b406f5c85"
+    },
+    {
+      "path": "docs/samples/multi-cam-mocap.mp4",
+      "bytes": 3633370,
+      "sha256": "0657ff52fb4f5e8c9464d4601f28233867ffd07f894ee71d31c08e6625cb0d6d"
+    },
+    {
+      "path": "docs/samples/streaming-to-blender.mp4",
+      "bytes": 12490446,
+      "sha256": "82fce160b6290916382edd21012b99952be92323b245a04f2f3fd2af0268b5e5"
+    },
+    {
+      "path": "docs/samples/walking-pad-locomotion.mp4",
+      "bytes": 5301088,
+      "sha256": "348d215813af924a2658454821e735e756261eb3ed361d8a5cea2b805cec7963"
+    },
+    {
+      "path": "docs/samples/treadmill-sprint-locomotion.mp4",
+      "bytes": 4581637,
+      "sha256": "f36b78737565a13109217d0a414c79b010316f2d7eb898d84c620b9a6c6675c1"
+    },
+    {
+      "path": "blender_addon/rgbmocap_bone_stream.zip",
+      "bytes": 9439,
+      "sha256": "3e51960b75797f08a7e209ff50e8868c2ff0172a16582f3b6a853b59b5f04e72"
+    },
+    {
+      "path": "third_party/ue5_mannequin/NOTICE.md",
+      "bytes": 2333,
+      "sha256": "d892a2351b674d57d78a9c70f838e04ffe4eedd9d4222eb22bc05d06235acbda"
+    },
+    {
+      "path": "third_party/ue5_mannequin/manny.npz",
+      "bytes": 2947617,
+      "sha256": "0b74c554a3d59daf4b6999b6b13a25674f0d0af9e763508af727b63ffd542139"
+    },
+    {
+      "path": "third_party/ue5_mannequin/quinn.npz",
+      "bytes": 2708284,
+      "sha256": "6ba9cc87276c7c02644fb038af6d8daf3de66fd1ab9d77ededa2e3930cd1244c"
+    },
+    {
+      "path": "third_party/ue5_mannequin/reference.json",
+      "bytes": 35878,
+      "sha256": "4e133ce1a5540c1b064c632173976d471b003e2b0cc6bbebef3f08bb25443a27"
+    }
+  ]
+}
