@@ -103,11 +103,13 @@ The checkpoint is approximately **2.50 GiB**. Selected geometry occupies about
 The original PEAR source/utilities were about **0.87 MiB** on the test PC.
 Camera alignment support adds about **11.35 MiB** of GeoCalib/Kornia files, over
 the existing Flow runtime, without upgrading shared packages. GeoCalib weights
-are about **110.7 MiB**; VGGT reuses the existing FlowHMR/MAMMA weight file (about **4.26 GiB** if not already present). Both are required for alignment, including one camera; unaligned tracking can run without them. The original
+are about **110.7 MiB**. The VGGT-Omega weight file is about **4.26 GiB**.
+PEAR and InstantHMR share both files within the Live installation. They are
+required for automatic alignment, including one camera. The original
 geometry ZIP download is about **1.48 GiB** and needs separate temporary space.
 PEAR also uses the official YOLOv8s detector (about 21.5 MiB), downloaded or
-imported through its Model Manager. The larger YOLOv8x used by offline models
-is unchanged. These are additional to the base installation, not a new runtime.
+imported through Live's Model Manager. The detector file is shared with
+InstantHMR.
 
 ## Video and webcam controls
 
@@ -317,9 +319,8 @@ created there. Camera Align temporarily writes sampled images/observations under
 camera/rig receipts. Failed or cancelled jobs are disposable caches; at most four recent job folders
 are retained, including the current calibration. Close PEAR
 before clearing these folders. Camera alignment support has its own
-`.setup/pear-alignment.json` receipt and `installer/pear-alignment.json` source pins. Close the app before deleting support files. Rerun
-`install.cmd` after support-source changes; `update.cmd` also prepares/verifies
-this support. Matching verified files are reused. Preserve model files and projects.
+`.setup/pear-alignment.json` receipt and `installer/pear-alignment.json` source pins. Close the app before deleting support files. Rerun the Live installer after support-source changes. It reuses matching
+verified files.
 
 `mocap/pear_ui.py` owns the transient GUI mode. `mocap/pear/worker.py` owns the model
 and capture device. `session.py`/`wire.py` implement bounded non-pickle IPC.
